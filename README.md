@@ -17,7 +17,7 @@ HTML content creation is done
 Design of webserver workflow
 
 ## Step 3:
-``````
+
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 content = """
@@ -40,7 +40,7 @@ class HelloHandler (BaseHTTPRequestHandler):
 server_address = ('', 80)
 httpd = HTTPServer (server_address, HelloHandler)
 httpd.serve_forever()
-``````
+
 ## Step 4:
 
 Serving the HTML pages.
